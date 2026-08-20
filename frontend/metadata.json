@@ -1,0 +1,6 @@
+{
+  "name": "Aether AI Notes",
+  "description": "A luxury, minimalist AI Notes application inspired by Nothing OS, Linear, Notion, Arc, and Apple.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
