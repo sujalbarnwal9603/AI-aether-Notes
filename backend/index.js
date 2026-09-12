@@ -28,6 +28,12 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 
+import authRoutes from "./src/routes/authRoutes.js";
+
+app.use("/api/auth", authRoutes);
+
+
+
 // Health check
 app.get("/", (req,res)=>{
     res.json({
