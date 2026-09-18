@@ -29,8 +29,12 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 
 import authRoutes from "./src/routes/authRoutes.js";
+import noteRoutes from "./src/routes/noteRoutes.js";
+
 
 app.use("/api/auth", authRoutes);
+app.use("/api/notes", noteRoutes);
+
 
 
 
